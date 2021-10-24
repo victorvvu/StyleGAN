@@ -1,1 +1,3 @@
-# StyleGAN
+# StyleGAN Repository
+
+Contains differnet GANs

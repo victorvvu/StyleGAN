@@ -10,6 +10,9 @@ The pitfall of GANs are that they require massive amounts of compute power to tr
 
 This network improved on the pitfalls of StyleGAN1, where "water drops" can be seen on the images and did not allow users to control features. In addition, StyleGAN2 not only improves training time and performance, but it also produces extremely high quality images.
 
+##### Training
+The Nvidia team recommends training on 8-12 GPUs, however most of us do not have this type of hardware to do so. This means training on an Amazon EC2 isntance will probably take a few days of constant training. Unforutunately for me, Amazon removed my free p2 instance, after leaving the model train for a whole day. So now I am training on Google Colab, which is much worse and automatically stops training after ~8 hours. 
+
 
 ## 2. Results
 
@@ -28,9 +31,13 @@ Sample from dataset
 - 120 breeds
 - labels include but not needed for this project
 
-  
-
-## 4. References
+## 4. Road Map
+- [x] Gather images and preprocess images
+- [x] Train on Amazon EC2 Instance
+- [x] Get my free P2 instance revoked 
+- [ ] Train on Google Colab for eternity 
+- [ ] Make application with generated images 
+## 5. References
 
 Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao and Li Fei-Fei. Novel dataset for Fine-Grained Image Categorization. First Workshop on Fine-Grained Visual Categorization (FGVC), IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2011.
 

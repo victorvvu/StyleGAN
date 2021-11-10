@@ -35,7 +35,7 @@ Sample from dataset
 - [x] Gather images and preprocess images
 - [x] Train on Amazon EC2 Instance
 - [x] Get my free P2 instance revoked 
-- [ ] Train on Google Colab for eternity 
+- [ ] Train on Google Colab 
 - [ ] Make application with generated images 
 ## 5. References
 
